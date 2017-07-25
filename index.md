@@ -2,29 +2,35 @@
 watermark，即水印。所谓水印是向数据多媒体（如图像、声音、视频信号等）中添加某些数字信息以达到文件真伪鉴别、版权保护等功能。嵌入的水印信息隐藏于宿主文件中，不影响原始文件的可观性和完整性。但当我们在网上找到一张喜欢的图片，却发现上面带着别人的水印，不免有些美中不足。今天就来列举几个运用Photoshop来实现图片去水印的小技巧。
 ### 大纲
 总体来说，photosh去除水印主要可以分为修复法和遮盖法。修复法包括：使用仿制图章工具or修复画笔工具or修补工具去除文字去除遮盖法包括：借图法、应用消失点滤镜法和Ctrl+Alt+方向键。下面我们将具体介绍上述六种方法。
-# 修复法
-## 仿制图章工具
-### 选取仿制图章工具，按住Alt键，在无水印区域点击相似的色彩名图案采样，然后在文字区域拖动鼠标复制以覆盖文字。
+ 
+## 1.仿制图章工具去除【比较常用】
+
+选取仿制图章工具，按住Alt键，在无水印区域点击相似的色彩名图案采样，然后在文字区域拖动鼠标复制以覆盖文字。
+
 注意：采样点即为复制的起始点。选择不同的笔刷直径会影响绘制的范围，而不同的笔刷硬度会影响绘制区域的边缘融合效果。
+ 
+## 2.修补工具去除【文字图片的背景色彩或图案比较一致】
 
+选取修补工具，在公共栏中选择修补项为“源”，关闭“透明”选项。然后用修补工具框选文字，拖动到无水印区域中色彩或图案相似的位置，松开鼠标。
 
-- Bulleted
-- List
+注意：修补工具具有自动匹配颜色的功能，复制的效果与周围的色彩较为融合，这是仿制图章工具所不具备的。
 
-1. Numbered
-2. List
+## 3.使用修复画笔工具去除文字
 
-**Bold** and _Italic_ and `Code` text
+按住Alt键，在无水印区域点击相似的色彩或图案采样，然后在文字区域拖动鼠标复制以覆盖文字，只是修复画笔工具与修补工具一样，也具有自动匹配颜色的功能，可根据需要进行选用。
 
-[Link](url) and ![Image](src)
-```
+## 4.借图法
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+框选无水印区域的相似图形(或图案)，按Ctrl+j键将其复制成新的图层，再利用变形工具将其变形，直接用覆盖
 
-### Jekyll Themes
+## 5.应用消失点滤镜法【透视效果较强】
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/XW-Queen/XW-Queen.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+框选要处理的文字区域，(防止选区以外的部分也被覆盖)执行菜单命令：滤镜——消失点，进入消失点滤镜编辑界面。
 
-### Support or Contact
+1、选取左边工具栏中的创建面板工具，由地板砖缝交汇处开始，沿着缝隙，依次点四个点，连成一个有透视效果的矩形。然后拖动其边线向右方及下方扩展，令面板完全覆盖文字。
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+2、选取左边工具栏中的图章工具，按住Alt键点击选取源图像点，绿色十字变红后，在文字区域拖动便完成复制
+
+## 6.Ctrl+Alt+方向键【背景色垂直性渐变颜色的图标】
+
+用长形选框工具在无文字区域中作一个选区，选区不宜太宽，高度应高于文字。然后按住Ctrl+Alt+方向键，直至完全覆盖文字即可
