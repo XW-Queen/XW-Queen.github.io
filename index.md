@@ -1,16 +1,17 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/XW-Queen/XW-Queen.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
+## Photoshop VS watermark
+ 
+    所谓水印是向数据多媒体（如图像、声音、视频信号等）中添加某些数字信息以达到文件真伪鉴别、版权保护等功能。嵌入的水印信息隐藏于宿主文件中，不影响原始文件的可观性和完整性。
+ 
+    但当我们在网上找到一张喜欢的图片，却发现上面带着别人的水印，不免有些美中不足。今天就来列举几个运用Photoshop来实现图片去水印的小技巧。
+### 大纲
+ 
+总体来说，photosh去除水印主要可以分为修复法和遮盖法。
+ 
+修复法包括：使用仿制图章工具or修复画笔工具or修补工具去除文字去除
+ 
+遮盖法包括：借图法、应用消失点滤镜法和Ctrl+Alt+方向键
+ 
+下面我们将具体介绍上述六种方法。
 # Header 1
 ## Header 2
 ### Header 3
