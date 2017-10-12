@@ -34,5 +34,6 @@ watermark，即水印。所谓水印是向数据多媒体（如图像、声音�
 ## 6.Ctrl+Alt+方向键【背景色垂直性渐变颜色的图标】
 
 用长形选框工具在无文字区域中作一个选区，选区不宜太宽，高度应高于文字。然后按住Ctrl+Alt+方向键，直至完全覆盖文字即可
+##
 [百度一下])(https://www.baidu.com/?tn=93923645_hao_pg)
 ![百度一下](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png)
