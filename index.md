@@ -38,4 +38,4 @@
 ###
 >[PS教程吧](https://tieba.baidu.com/f?kw=ps%BD%CC%B3%CC&fr=ala0&tpl=5)
 
-![PS教程吧](https://imgsa.baidu.com/forum/pic/item/afc379310a55b31920c198ec41a98226cffc176a.jpg)
+![PS](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1507804055839&di=681918d1a9a17f6c0b124b9cebc303fe&imgtype=0&src=http%3A%2F%2Fd.hiphotos.baidu.com%2Fzhidao%2Fwh%253D450%252C600%2Fsign%3D360e23cb2c34349b74536681fcda39f8%2Ff9198618367adab459ced9928fd4b31c8601e4c1.jpg)
