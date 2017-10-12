@@ -36,6 +36,6 @@
  
 用长形选框工具在无文字区域中作一个选区，选区不宜太宽，高度应高于文字。然后按住Ctrl+Alt+方向键，直至完全覆盖文字即可
 ###
->[PS教程吧])(https://tieba.baidu.com/f?kw=ps%BD%CC%B3%CC&fr=ala0&tpl=5)
+>[PS教程吧](https://tieba.baidu.com/f?kw=ps%BD%CC%B3%CC&fr=ala0&tpl=5)
 
 ![PS教程吧](https://imgsa.baidu.com/forum/pic/item/afc379310a55b31920c198ec41a98226cffc176a.jpg)
